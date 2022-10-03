@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Tugas 1</title>
+    </head>
+    <body>
+        <form action="id1.php" method="post">
+            <table style="width: 100%">
+                <tr>
+                    <th colspan="2">FORM</th>
+                </tr>
+                <tr>
+                    <td>Nama</td>
+                    <td><input type="text" name="nama" value="" /> <br /></td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td><input type="text" name="alamat" value="" /> <br /></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>
+                        <input type="radio" id="male" name="jenis" value="Pria" /> <label for="male">Pria</label><br />
+                        <input type="radio" id="female" name="jenis" value="Wanita" /> <label for="female">Wanita</label><br />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pekerjaan</td>
+                    <td>
+                        <label for="Pekerjaan">
+                        <select name="work" id="Pekerjaan">
+                            <option value="Pelajar">Pelajar</option>
+                            <option value="mahasiswa">Mahasiswa</option>
+                            <option value="Pegawai">Pegawai</option>
+                            <option value="Wirasuasta">Wirasuasta</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2" align="center"><input type="submit" name="registrasi" value="registrasi" /><br /></th>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
